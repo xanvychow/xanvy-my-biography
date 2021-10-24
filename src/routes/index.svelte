@@ -1,8 +1,7 @@
 <script>
     import Header from '$lib/Header.svelte';
     import Section from '$lib/Section.svelte';
-    import Hobbies from '$lib/Hobbies.svelte';
-    import Personality from '$lib/Personality.svelte';
+    import Footer from '$lib/Footer.svelte';
     let myInfo = {
         title: "Info",
         item1: "Xanvy Chow",
@@ -25,5 +24,6 @@
 
 <Header title="My Biography" />
 <Section {...myInfo} />
-<Hobbies {...myHobbies} />
-<Personality {...myPersonality} />
+<Section {...myHobbies} />
+<Section {...myPersonality} />
+<Footer github="https://github.com/xanvychow/" />
