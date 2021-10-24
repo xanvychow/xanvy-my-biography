@@ -2,6 +2,4 @@
     export let github="";
 </script>
 
-<h3>
-    {github}
-</h3>
+<a href="{github}" target="_blank">github</a>
