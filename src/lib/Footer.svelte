@@ -2,6 +2,6 @@
     export let github="";
 </script>
 
-<h1>
+<h3>
     {github}
-</h1>
+</h3>
